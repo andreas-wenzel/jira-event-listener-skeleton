@@ -9,7 +9,7 @@ Das Plugin wurde auf Basis des Altassian Tutorials "[Tutorial - Writing JIRA eve
 public void onEvent(IssueEvent event) {
 	try {
 		/* 
-		 *	Do something with events data 
+		 * Do something! 
 		 */
 		log.info("Handle EventType: \"" + eventTypeManager.getEventType(event.getEventTypeId()).getName() + "\"");
 	} catch (Throwable t) {
